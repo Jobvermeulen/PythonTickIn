@@ -1,5 +1,9 @@
 import csv
 
+# Author Job Vermeulen
+# Build V0.1
+# Date 20/08/2019
+
 # startUp class
 class startUp:
     # initialize (csv_save_file == where is the csv file saved)
