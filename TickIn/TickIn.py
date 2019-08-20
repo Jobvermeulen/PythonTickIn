@@ -134,11 +134,11 @@ class Questions:
         return description
 
     def tickInStartTime(self):
-        startTime = input("What's the starting time of your TickIn? ")
+        startTime = input("What's the starting time of your TickIn? \nTime needs in this format 00.00 ")
         return startTime
 
     def tickInEndTime(self):
-        endTime = input("What's the end time of your TickIn?")
+        endTime = input("What's the end time of your TickIn? \nTime needs in this format 00.00 ")
         return endTime
     
     def tickInDate(self):
@@ -146,19 +146,19 @@ class Questions:
         return date
     
     def containsFollowing(self):
-        print("This contains the following questions:\n")
+        print("This contains the following questions:")
 
     def printName(self):
-        print("• What's the name of your TickIn?\n")
+        print("• What's the name of your TickIn?")
 
     def printDescription(self):
-        print("• What's the description of your TickIn?\n")
+        print("• What's the description of your TickIn?")
 
     def printStartTime(self):
-        print("• What's the starting time of your TickIn?\n")
+        print("• What's the starting time of your TickIn?")
     
     def printEndTime(self):
-        print("• What's the end time of your TickIn?\n")
+        print("• What's the end time of your TickIn?")
 
     def printDate(self):
         print("• On what date was your TickIn?\n")
